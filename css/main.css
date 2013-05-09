@@ -1,0 +1,27 @@
+.multi-select-list {
+  padding: 0;
+}
+
+.multi-select-list li {
+  margin: 0;
+  padding: .8em;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.multi-select-list.light {
+  margin: 0;
+}
+
+.multi-select-list.light li {
+  padding: 0;
+  border: none;
+}
+
+.input-append.input-prepend > input:first-of-type {
+  border-radius: 4px 0 0 4px;
+  text-align: right;
+}
+.input-append.input-prepend > input:last-of-type {
+  border-radius: 0 4px 4px 0;
+}

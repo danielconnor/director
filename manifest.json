@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Download Manager",
+  "version": "0.1",
+  "description": "Sort your downloads into correct folders",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "downloads",
+    "experimental"
+  ],
+
+  "background": {
+    "scripts": [
+      "src/querystring.js",
+      "src/url.js",
+      "src/path.js",
+      "src/background.js"
+    ]
+  },
+
+  "options_page": "options.html"
+}
